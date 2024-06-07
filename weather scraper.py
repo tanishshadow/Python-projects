@@ -3,7 +3,7 @@ import requests
 from time import sleep
 
 # sending request to the website
-# city = "Bedeti"
+
 city = input("Enter the city:\n")
 url = f"https://www.google.com/search?q=weather+{city}"
 content = requests.get(url).text
